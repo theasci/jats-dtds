@@ -1,3 +1,9 @@
 {
-	"name":"theasci/jats-dtds"
+	"name":"theasci/jats-dtds",
+	"type": "library",
+	"description": "Collection of DTD's to validate against using the JATS standard.",
+
+	"autoload": {
+		 "files": [ "JatsDtds.php" ]
+	}
 }
